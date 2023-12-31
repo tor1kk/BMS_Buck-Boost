@@ -17,7 +17,7 @@ The key components of the module include:
   The FS8205A connects the battery's negative to the common ground, with DW01A controlling battery operation. The transistor disconnects the battery in cases of discharge, overcharge, short circuit, etc.
 
 - **DC-DC Buck-Boost Converter:** Employing [TPS63020DSJR](https://www.ti.com/lit/ds/symlink/tps63020.pdf?ts=1700141277158&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS63020),
-- this component enables voltage conversion. The goal is to maintain a constant voltage level regardless of the battery charge, acting as a step-up converter when voltage is low and a step-down converter when it's high.
+  this component enables voltage conversion. The goal is to maintain a constant voltage level regardless of the battery charge, acting as a step-up converter when voltage is low and a step-down converter when it's high.
 
 In summary, this module facilitates battery charging, provides protection, and allows for adjustable output voltage.
 
