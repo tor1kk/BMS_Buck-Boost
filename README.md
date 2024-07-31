@@ -2,9 +2,9 @@
 
 ## Brief
 
-Many low-power digital devices rely on lithium batteries, which are prevalent today. As these batteries discharge, voltage drops, 
-leading to operational issues for devices with specific voltage requirements. For instance, if a device needs a constant voltage of 3.4V, 
-it ceases to function once the battery drops below this level. Additionally, powering devices at 3.3V or 5V is common. This module addresses these challenges.
+This Battery Management System (BMS) with Buck-Boost Converter is designed for lithium battery applications, providing a flexible voltage range of 3-5V. 
+It is particularly useful in projects requiring stable 3.3V or 5V outputs. The system includes a charging circuit, protection circuit, and a DC-DC buck-boost converter, 
+ensuring consistent voltage, enhanced battery safety, and adaptability for various devices.
 
 ## Features
 
